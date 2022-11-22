@@ -385,6 +385,7 @@ footer .vercel-logo {
 
 .author-sidebar {
   border-left: 1px solid #333;
+  border-right: none;
   height: inherit;
   padding: 84px 40px 40px;
   width: 340px;
@@ -433,6 +434,10 @@ footer .vercel-logo {
   font-size: 14px;
   color: #888;
   width: 340px;
+}
+
+.author-date {
+  margin-top: 10px;
 }
 
 h1, h2, h3 {
@@ -555,5 +560,9 @@ h1, h2, h3 {
 
   .blog-post-card h1.post-title {
     font-size: 24px;
+  }
+
+  .author-sidebar {
+    position: static;
   }
 }
