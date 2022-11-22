@@ -23,7 +23,7 @@ const PostWidget = ({ category, slug }) => {
           {slug ? `${slug} Posts` : 'Featured Posts'}
         </h1>
         <span className="tag-line">Keep up to date with AVA.</span></div>
-      <div class="post-carousel">
+      <div className="post-carousel">
         {relatedPosts.map((post) => <div className="carousel-item">< PostCard post={post} key={post.title} /></div>)}
       </div>
     </div>

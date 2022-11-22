@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import moment from 'moment';
 import { PostDetail, Categories, PostWidget, Author, Loader, Community } from '../../components';
 import { getPosts, getPostDetails } from '../../services';
+import Image from 'next/image';
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
@@ -37,7 +38,7 @@ const PostDetails = ({ post }) => {
         return <h4 key={index} className="text-md font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
       case 'image':
         return (
-          <img
+          <Image
             key={index}
             alt={obj.title}
             height={obj.height}
