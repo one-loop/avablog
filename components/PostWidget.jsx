@@ -20,7 +20,8 @@ const PostWidget = ({ category, slug }) => {
     <div className="recent-posts">
       <div className="recent-header">
         <h1 className="post-section-title">
-          {slug ? `${slug} Posts` : 'Featured Posts'}
+          {/* {slug ? `${slug} Posts` : 'Featured Posts'} */}
+          Featured Posts
         </h1>
         <span className="tag-line">Keep up to date with AVA.</span></div>
       <div className="post-carousel">

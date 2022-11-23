@@ -25,7 +25,7 @@ export default function Home({ posts }) {
           <PostWidget />
           <div className="post-section">
             <h3 className="latest">Latest</h3>
-            {posts.map((post, index) => < PostCard post={post.node} key={post.title} />)}
+            {posts.map((post) => < PostCard post={post.node} key={post.title} />)}
             <Community />
           </div>
         </div>
