@@ -42,8 +42,6 @@ const PostDetails = ({ post }) => {
           <img
             key={index}
             alt={obj.title}
-            height={obj.height}
-            width={obj.width}
             src={obj.src}
           />
         );
