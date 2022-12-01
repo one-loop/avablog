@@ -8,7 +8,7 @@ const PostDetail = ({ post }) => {
       <div className="post-details">
         <span className="back-to-blog">
           {/* <Link href={`/category/${post.categories[0].slug}`}>← Back to Blog</Link> */}
-          <Link href={`/category/${post.category.slug}`}>← Back to Blog</Link>
+          <Link href="/">← Back to Blog</Link>
         </span>
         <span>
           <Link href={`/category/${post.category.slug}`}>
