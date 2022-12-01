@@ -582,3 +582,11 @@ h1, h2, h3 {
     position: static;
   }
 }
+
+.loader-container {
+  width: 100vw;
+  height: calc(100vh - 76px - 113px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

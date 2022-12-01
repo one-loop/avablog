@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import moment from 'moment';
 import { PostDetail, Categories, PostWidget, Author, Loader, Community } from '../../components';
@@ -50,9 +51,15 @@ const PostDetails = ({ post }) => {
         return modifiedText;
     }
   };
-
+  
+  
   return (
     <>
+      <Head>
+        <title>{post.title}</title>
+        <meta name="description" content="AVA Blog" />
+        <link rel="icon" href="/favicon round.png" />
+      </Head>
       <PostDetail post={post} />
       <main className="post-main">
         <div className="post-content">

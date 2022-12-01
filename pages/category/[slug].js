@@ -26,7 +26,7 @@ const CategoryPost = ({ posts }) => {
         <div className="outer-post-container">
           <PostWidget />
           <div className="post-section">
-            <h3 className="latest">Latest</h3>
+            <h3 className="latest">Latest {posts[0].node.category.name} Posts</h3>
               {posts.map((post, index) => (
             <PostCard key={index} post={post.node} />
           ))}
