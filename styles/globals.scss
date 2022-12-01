@@ -259,12 +259,13 @@ aside {
     width: calc(100vw - 320px - 10%);
   }
 
-  main {margin: 0 5%;}
+  main {margin: 0 16px;}
 }
 
 @media screen and (max-width: 961px) {
   .recent-header {
     padding: 40px 40px 40px 40px;
+    padding: 48px 16px;
   }
 
   .post-carousel {
@@ -272,7 +273,8 @@ aside {
   }
 
   .post-section {
-    margin: 40px 40px 40px 40px;
+    // margin: 40px 40px 40px 40px;
+    margin: 40px 16px;
   }
 
   .blog-post-card {
@@ -281,6 +283,14 @@ aside {
 
   .carousel-item {
     margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .blog-post-card {
+    margin-bottom: 16px;
+  }
+
+  .carousel-item .blog-post-card {
     margin-bottom: 40px;
   }
 }
@@ -473,12 +483,12 @@ h1, h2, h3 {
   }
   .author-sidebar {
     width: 100%;
-    padding: 30px 5%;
+    padding: 30px 16px;
     border: none;
     border-bottom: 1px solid #333;
   }
   .post-content {
-    padding: 50px 5%;
+    padding: 50px 16px;
   }
   .blog-post-title {
     font-size: 32px;
@@ -494,11 +504,11 @@ h1, h2, h3 {
   .back-to-blog > a {
     margin-bottom: 5vh;
     border-bottom: 1px solid #333;
-    padding: 20px 5%;
+    padding: 20px 16px;
     position: relative;
     width: 100vw;
     top: 0;
-    right: 5%;
+    right: 16px;
   }
 
   .post-main p {font-size: 16px;}
@@ -509,11 +519,12 @@ h1, h2, h3 {
 
   .carousel-item {
     margin-bottom: 0px;
-    margin-right: 5%;
+    margin-right: 16px;
   }
 
   .post-carousel {
-    margin-left: 5%
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
   aside {
@@ -534,7 +545,7 @@ h1, h2, h3 {
     display: flex;
     max-width: none;
     overflow-x: scroll;
-    padding: 10px 5%;
+    padding: 10px 16px;
   }
 
   .category-name {
