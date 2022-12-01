@@ -25,7 +25,7 @@ const PostWidget = ({ category, slug }) => {
         </h1>
         <span className="tag-line">Keep up to date with AVA.</span></div>
       <div className="post-carousel">
-        {relatedPosts.map((post, index) => <div className="carousel-item">< PostCard post={post} key={index} /></div>)}
+        {relatedPosts.map((post, index) => <div className="carousel-item" key={index}>< PostCard post={post} key={index} /></div>)}
       </div>
     </div>
   )

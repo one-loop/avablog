@@ -462,6 +462,11 @@ h1, h2, h3 {
 }
 
 @media screen and (max-width: 961px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden !important;
+  }
+  
   .post-main {
     flex-direction: column;
     flex-flow: column-reverse;
