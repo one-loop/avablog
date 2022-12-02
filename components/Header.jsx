@@ -59,11 +59,11 @@ const Header = () => {
         <Navbar.Collapse>
           <Navbar.CollapseItem key="Home" activeColor="secondary">
             <Link
-              color="inherit" css={{ minWidth: "100%", }} href="https://avaevolve.vercel.app/">Home</Link>
+              color="inherit" css={{ minWidth: "100%", }} href="https://www.avaevolve.org/">Home</Link>
           </Navbar.CollapseItem>
           <Navbar.CollapseItem key="About">
             <Link
-              color="inherit" css={{ minWidth: "100%", }} href="https://avaevolve.vercel.app/about.html">About</Link>
+              color="inherit" css={{ minWidth: "100%", }} href="https://www.avaevolve.org/about.html">About</Link>
           </Navbar.CollapseItem>
           <Navbar.CollapseItem key="Blog" isActive>
             <Link
@@ -71,11 +71,11 @@ const Header = () => {
           </Navbar.CollapseItem>
           <Navbar.CollapseItem key="Team" activeColor="secondary">
             <Link
-              color="inherit" css={{ minWidth: "100%", }} href="https://avaevolve.vercel.app/team.html">Team</Link>
+              color="inherit" css={{ minWidth: "100%", }} href="https://www.avaevolve.org/team.html">Team</Link>
           </Navbar.CollapseItem>
           <Navbar.CollapseItem key="Volunteer" activeColor="secondary">
             <Link
-              color="inherit" css={{ minWidth: "100%", }} href="https://avaevolve.vercel.app/volunteer.html">Volunteer</Link>
+              color="inherit" css={{ minWidth: "100%", }} href="https://www.avaevolve.org/volunteer.html">Volunteer</Link>
           </Navbar.CollapseItem>
           <Navbar.CollapseItem key="Sponsor" activeColor="secondary">
             <Link
@@ -83,7 +83,7 @@ const Header = () => {
           </Navbar.CollapseItem>
           <Navbar.CollapseItem key="Community" activeColor="secondary">
             <Link
-              color="inherit" css={{ minWidth: "100%", }} href="https://avaevolve.vercel.app/about.html#community">Community</Link>
+              color="inherit" css={{ minWidth: "100%", }} href="https://www.avaevolve.org/about.html#community">Community</Link>
           </Navbar.CollapseItem>
         </Navbar.Collapse>
       </Navbar.Content>
