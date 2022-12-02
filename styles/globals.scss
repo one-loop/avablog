@@ -488,7 +488,7 @@ h1, h2, h3 {
     border-bottom: 1px solid #333;
   }
   .post-content {
-    padding: 50px 16px;
+    padding: 50px 24px;
   }
   .blog-post-title {
     font-size: 32px;
@@ -511,7 +511,11 @@ h1, h2, h3 {
     right: 16px;
   }
 
-  .post-main p {font-size: 16px;}
+  .post-main p {
+    font-size: 16px;
+    letter-spacing: -.01rem;
+    line-height: 1.5rem;
+  }
 
   .recent-posts {
     background: linear-gradient(180deg,#000 0,transparent 100%),linear-gradient(90deg,rgb(0 112 243/.2) 0,rgb(248 28 229/.2) 100%),linear-gradient(to right,hsla(0,0%,100%,0),hsla(0,0%,100%,.1),hsla(0,0%,100%,.1),hsla(0,0%,100%,0));
@@ -589,4 +593,13 @@ h1, h2, h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.post-image {
+  border-radius: 12px;
+}
+
+.post-main p {
+  letter-spacing: -.01rem;
+  line-height: 1.75rem;
 }

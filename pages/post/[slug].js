@@ -43,6 +43,7 @@ const PostDetails = ({ post }) => {
             key={index}
             alt={obj.title}
             src={obj.src}
+            className="post-image"
           />
         );
       default:

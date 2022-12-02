@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer>
-      <p>Created with ❤️ by <Link href="https://oneloop-portfolio.vercel.app/">oneloop</Link></p>
+      <p>Designed & Developed with ❤️ by <Link href="https://oneloop-portfolio.vercel.app/">oneloop</Link></p>
       <p>Icons by Icons8</p>
       <a href="https://www.vercel.com?utm_source=nextui&amp;utm_marketing=oss" target="_blank" rel="noreferrer" className="vercel-logo">
         <b>Deployed on</b>
