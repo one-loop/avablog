@@ -418,7 +418,10 @@ footer .vercel-logo {
 .post-content p {
   margin: 20px 0px;
   font-size: 18px;
+  letter-spacing: -.01rem;
+  line-height: 1.75rem;
 }
+
 
 .post-content p:first-of-type {
   margin-top: 0px;
@@ -599,7 +602,3 @@ h1, h2, h3 {
   border-radius: 12px;
 }
 
-.post-main p {
-  letter-spacing: -.01rem;
-  line-height: 1.75rem;
-}
