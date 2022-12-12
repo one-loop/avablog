@@ -12,7 +12,8 @@ const Community = () => {
       <Spacer y={2} />
       <Grid.Container gap={2} justify="center">
         <Grid xs={12} sm={4}>
-          <Link href="https://instagram.com/avaevolve" css={{ textAlign: "left" }}>
+          <Link href="https://instagram.com/avaevolve" css={{ textAlign: "left" }} target="_blank">
+            <a className="social-card-link">
             <Card css={{ minHeight: "140px", backdropFilter: "saturate(180%) blur(14px)", background: "rgba(255, 255, 255, 0.05)", padding: "16px" }} className="social-card">
               <Card.Header css={{display: "flex", padding: "0px", rowGap: "10px"}}>
                 <img src="https://seeklogo.com/images/I/instagram-logo-1494D6FE63-seeklogo.com.png" height={28} width={28} />
@@ -28,10 +29,12 @@ const Community = () => {
               </Card.Body>
 
             </Card>
+            </a>
           </Link>
         </Grid>
         <Grid xs={12} sm={4}>
-          <Link href="https://discord.gg/Yg3dVzaDqp">
+          <Link href="https://discord.gg/Yg3dVzaDqp" target="_blank">
+            <a className="social-card-link">
             <Card css={{ minHeight: "140px", backdropFilter: "saturate(180%) blur(14px)", background: "rgba(255, 255, 255, 0.05)", padding: "16px" }} className="social-card">
               <Card.Header css={{display: "flex", padding: "0px", rowGap: "10px"}}>
                 <svg height="30" viewBox="0 0 24 24" width="30">
@@ -49,11 +52,13 @@ const Community = () => {
               </Card.Body>
 
             </Card>
+            </a>
           </Link>
         </Grid>
         <Grid xs={12} sm={4}>
-          <Link href="https://linkedin.com/company/ava-evolve">
-            <Card css={{ minHeight: "140px", backdropFilter: "saturate(180%) blur(14px)", background: "rgba(255, 255, 255, 0.05)", padding: "16px" }} className="social-card">
+          <Link href="https://linkedin.com/company/ava-evolve" target="_blank">
+            <a className="social-card-link">
+              <Card css={{ minHeight: "140px", backdropFilter: "saturate(180%) blur(14px)", background: "rgba(255, 255, 255, 0.05)", padding: "16px" }} className="social-card">
               <Card.Header css={{display: "flex", padding: "0px", rowGap: "10px"}}>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
                                                                             <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
@@ -73,6 +78,7 @@ const Community = () => {
               </Card.Body>
 
             </Card>
+            </a>
           </Link>
         </Grid>
       </Grid.Container>
