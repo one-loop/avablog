@@ -6,7 +6,8 @@ export const getPosts = async () => {
   const query = gql`
     query MyQuery {
       postsConnection  (
-        orderBy: createdAt_DESC
+        orderBy: createdAt_DESC,
+        first: 75
       )  {
         edges {
           node {
