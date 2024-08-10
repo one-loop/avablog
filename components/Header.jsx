@@ -16,11 +16,11 @@ const Header = () => {
         </svg>
       </Navbar.Brand>
       <Navbar.Content hideIn="xs" css={{ paddingLeft: "75px" }}>
-        <Navbar.Link href="https://avaevolve.org/">Home</Navbar.Link>
-        <Navbar.Link href="https://avaevolve.org/about.html">About Us</Navbar.Link>
+        <Navbar.Link href="https://avaevolve.vercel.app/">Home</Navbar.Link>
+        <Navbar.Link href="https://avaevolve.vercel.app/about.html">About Us</Navbar.Link>
         <Navbar.Link isActive href="/">Blog</Navbar.Link>
-        <Navbar.Link href="https://avaevolve.org/team.html">Team</Navbar.Link>
-        <Navbar.Link href="https://avaevolve.org/volunteer.html">Volunteer</Navbar.Link>
+        <Navbar.Link href="https://avaevolve.vercel.app/team.html">Team</Navbar.Link>
+        <Navbar.Link href="https://avaevolve.vercel.app/volunteer.html">Volunteer</Navbar.Link>
       </Navbar.Content>
       <Navbar.Content>
         <Navbar.Item hideIn="xs">
